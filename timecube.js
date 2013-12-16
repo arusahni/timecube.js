@@ -84,9 +84,11 @@
 		}
 
 		function style(node) {
+			node.style.fontFamily = "Times New Roman";
 			node.style.color = getRandomColor();
 			node.style.maxWidth = "45%"
 			node.style.fontSize = getRandomFontSize();
+			node.style.lineHeight = "1.2em"; //Most browsers use 1.2.
 			node.style.margin = "0 auto " + BASE_FONT_SIZE;
 			return getRandomSeparator(node.style.color, node.style.fontSize);
 		}
@@ -106,7 +108,6 @@
 			root.style.textAlign = "center";
 			root.style.fontSize = BASE_FONT_SIZE;
 			root.style.fontColor = "#000";
-			root.style.fontFamily = "Times New Roman";
 			for (var x = 0; x < nodes.length; x++) {
 				var sep = style(nodes[x]);
 				if (sep !== null) {
