@@ -85,7 +85,7 @@
 
 		function style(node) {
 			node.style.color = getRandomColor();
-			node.style.maxWidth = "50%"
+			node.style.maxWidth = "45%"
 			node.style.fontSize = getRandomFontSize();
 			node.style.margin = "0 auto " + BASE_FONT_SIZE;
 			return getRandomSeparator(node.style.color, node.style.fontSize);
