@@ -1,7 +1,7 @@
-Timecube.js
+timecube.js
 ===========
 
-A javascript library that turns an ordinary website into a 4 corner
+A JavaScript library that turns an ordinary website into a 4 corner
 simultaneous 4 day page.
 
 Demo
