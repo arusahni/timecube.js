@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head><title>Jonathan Swift - A Modest Proposal</title>
-<META name="description" content="Jonathan Swift's satirical essay from 1729, where he suggests that the Irish eat their own children.">
-<META name="keywords" content="Jonathan Swift, satire, literature, Ireland, misanthropy">
+<head>
+	<title>Timecube.js - 4 times the revolution</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.3/readable/bootstrap.min.css" />
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
 </head>
-<body bgcolor="CECECE" LINK=006699 VLINK=444444 ALINK=66CCFF>
-
+<body>
+<div class="jumbotron">
+	<div class="container">
+		<h1>Timecube.js</h1>
+		<p>A javascript library that turns an ordinary website into a 4 corner simultaneous 4 day page.</p>
+		<button class="btn btn-apply" autocomplete="off">Timecubify me!</button>
+		<button class="btn btn-primary"><i class="fa fa-github"></i> View on Github</button>
+    </div>
+</div>
+<div class="blurb container">
 <p>It is a melancholy object to those who walk through this great town or travel in the country, when they see the streets, the roads, and cabin doors, crowded with beggars of the female sex, followed by three, four, or six children, all in rags and importuning every passenger for an alms. These mothers, instead of being able to work for their honest livelihood, are forced to employ all their time in strolling to beg sustenance for their helpless infants: who as they grow up either turn thieves for want of work, or leave their dear native country to fight for the Pretender in Spain, or sell themselves to the Barbadoes.</P>
 <p>I think it is agreed by all parties that this prodigious number of children in the arms, or on the backs, or at the heels of their mothers, and frequently of their fathers, is in the present deplorable state of the kingdom a very great additional grievance; and, therefore, whoever could find out a fair, cheap, and easy method of making these children sound, useful members of the commonwealth, would deserve so well of the public as to have his statue set up for a preserver of the nation.</P>
 <p>But my intention is very far from being confined to provide only for the children of professed beggars; it is of a much greater extent, and shall take in the whole number of infants at a certain age who are born of parents in effect as little able to support them as those who demand our charity in the streets.</P>
@@ -46,10 +55,14 @@
 
 <p>After all, I am not so violently bent upon my own opinion as to reject any offer proposed by wise men, which shall be found equally innocent, cheap, easy, and effectual. But before something of that kind shall be advanced in contradiction to my scheme, and offering a better, I desire the author or authors will be pleased maturely to consider two points. First, as things now stand, how they will be able to find food and raiment for an hundred thousand useless mouths and backs. And secondly, there being a round million of creatures in human figure throughout this kingdom, whose whole subsistence put into a common stock would leave them in debt two millions of pounds sterling, adding those who are beggars by profession to the bulk of farmers, cottagers, and laborers, with their wives and children who are beggars in effect: I desire those politicians who dislike my overture, and may perhaps be so bold as to attempt an answer, that they will first ask the parents of these mortals, whether they would not at this day think it a great happiness to have been sold for food, at a year old in the manner I prescribe, and thereby have avoided such a perpetual scene of misfortunes as they have since gone through by the oppression of landlords, the impossibility of paying rent without money or trade, the want of common sustenance, with neither house nor clothes to cover them from the inclemencies of the weather, and the most inevitable prospect of entailing the like or greater miseries upon their breed for ever.</P>
 <p>I profess, in the sincerity of my heart, that I have not the least personal interest in endeavoring to promote this necessary work, having no other motive than the public good of my country, by advancing our trade, providing for infants, relieving the poor, and giving some pleasure to the rich. I have no children by which I can propose to get a single penny; the youngest being nine years old, and my wife past child-bearing.</P>
-The End
-
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="timecube.js" type="text/javascript"></script>
 <script type="text/javascript">
-	Timecube.timecubify();
+	$(".btn-apply").click(function() {
+		Timecube.timecubify(".blurb");
+		$(this).prop("disabled", true);
+	});
 </script>
 </body></html> 
