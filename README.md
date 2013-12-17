@@ -6,7 +6,7 @@ simultaneous 4 day page.
 
 Demo
 -----
-[Click here to view a demo](https://arusahni.github.io/timecube.js).
+[Click here to view a demo](http://arusahni.github.io/timecube.js).
 
 Installation
 ------------
