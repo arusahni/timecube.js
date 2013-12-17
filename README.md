@@ -4,6 +4,10 @@ Timecube.js
 A javascript library that turns an ordinary website into a 4 corner
 simultaneous 4 day page.
 
+Demo
+-----
+[Click here to view a demo](https://arusahni.github.io/timecube.js).
+
 Installation
 ------------
 
