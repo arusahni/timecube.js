@@ -69,6 +69,13 @@
 			}
 		}
 
+		function getRandomFontWeight() {
+			if (Math.random() > 0.85) {
+				return "normal";
+			}
+			return "bold";
+		}
+
 		function getRandomSeparator(color, size) {
 			var x  = getRandomInteger();
 			if (x < 270) {
@@ -88,6 +95,7 @@
 			node.style.color = getRandomColor();
 			node.style.maxWidth = "45%"
 			node.style.fontSize = getRandomFontSize();
+			node.style.fontWeight = getRandomFontWeight();
 			node.style.lineHeight = "1.2em"; //Most browsers use 1.2.
 			node.style.margin = "0 auto " + BASE_FONT_SIZE;
 			return getRandomSeparator(node.style.color, node.style.fontSize);
@@ -97,9 +105,9 @@
 			referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 		}
 
-		function timecubify(baseNode) {
-			var root = document.querySelector(baseNode || 'body');
-			var nodeList = getNodes(root);
+		function timecubify(baseTag, blockTag) {
+			var root = document.querySelector(baseTag || 'body');
+			var nodeList = getNodes(root, blockTag);
 			var nodes = [];
 			// need to create a copy of nodelist so separators don't throw off the main loop
 			// nifty for loop courtesy of http://stackoverflow.com/q/3199588/214197
