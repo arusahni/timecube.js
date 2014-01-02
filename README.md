@@ -33,3 +33,5 @@ Disclaimer
 ----------
 
 This script is in no way affiliated with Timecube.com or its creator. 
+
+![Analytics](https://ga-beacon.appspot.com/UA-46766795-1/timecube.js/README?pixel)
