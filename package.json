@@ -1,0 +1,25 @@
+{
+  "name": "timecube.js",
+  "version": "1.0.0",
+  "description": "Turn an ordinary website into a 4 corner simultaneous 4 day page.",
+  "main": "timecube.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arusahni/timecube.js.git"
+  },
+  "keywords": [
+    "timecube"
+  ],
+  "author": "Aru Sahni <aru@arusahni.net>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/arusahni/timecube.js/issues"
+  },
+  "homepage": "https://arusahni.github.io/timecube.js"
+}
