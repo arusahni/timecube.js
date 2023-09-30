@@ -363,5 +363,3 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.
-
-![Analytics](https://ga-beacon.appspot.com/UA-46766795-1/timecube.js/LICENSE?pixel)
